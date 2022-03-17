@@ -23,9 +23,9 @@ class LuciferMoringstar(object):
 
 🗳️ My Server : [Heroku](https://youtu.be/xcZD55td6Vw)
 
-🏷️ My Updates : [Mo Tech](t.me/Mo_Tech_YT)
+🏷️ My Updates : [Mo Tech](t.me/sdmoviesflixofficial)
 
-🗣️ My Support : [Any Doubt](t.me/Mo_Tech_Group)"""
+🗣️ My Support : [Any Doubt](t.me/sdmoviesflixcontact_bot)"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
