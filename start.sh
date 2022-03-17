@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /updatedlucifer
 fi
-cd /LuciferMoringstar-Robot
+cd /updatedlucifer
 pip3 install -U -r requirements.txt
 echo "Starting LuciferMoringstar RoBot...."
 python3 main.py
