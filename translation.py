@@ -7,25 +7,17 @@ class LuciferMoringstar(object):
     ABOUT_MSG = """
 🤖 My Name [{bot_name}](t.me/{bot_username})
 
-🧑 My Dev : [PR0FESS0R-99](t.me/PR0FESS0R_99)
+🧑 My Dev : [Admin](t.me/sdmoviesflixofficial)
 
 🧑 My Creator : {dev_name}
 
-📦 My Source : [Click Here](https://github.com/PR0FESS0R-99/LuciferMoringstar_Robot)
+🗃️ My Channel : [Channel](https://t.me/sdmoviesflixnew)
 
-📺 My Tutorial : [Ckick Here](https://youtu.be/FCU_XJmyG_U)
+🗳️ Movie Group : [Click Here](https://t.me/+F_s_7N05VRZlMzI1)
 
-🗃️ My Library : [Pyrogram](https://youtu.be/Af055Eozk9s)
+🏷️ My Updates : [SDMOVIESFLIX](t.me/sdmoviesflixofficial)
 
-🖇️ My Language : [Python3](https://youtu.be/Af055Eozk9s)
-
-🗃️ My Database : [Mongodb](https://youtu.be/gBLTsH-IXr0)
-
-🗳️ My Server : [Heroku](https://youtu.be/xcZD55td6Vw)
-
-🏷️ My Updates : [Mo Tech](t.me/sdmoviesflixofficial)
-
-🗣️ My Support : [Any Doubt](t.me/sdmoviesflixcontact_bot)"""
+🗣️ Contact Me : [Any Doubt](t.me/sdmoviesflixcontact_bot)"""
 
     FILE_CAPTIONS = """Hello 👋 {mention}\n\n📁Title {title}\n\n🔘Size {size}"""
 
@@ -39,7 +31,7 @@ class LuciferMoringstar(object):
  » /logger - Get Bot Logs
  » /channel - Add Channel List"""
 
-    ADD_YOUR_GROUP = """**__ഞാൻ ജോലി ചെയ്യുന്ന ഗ്രൂപ്പിൽ ചേരൂ, നിങ്ങൾക്ക് ആവശ്യമുള്ള എല്ലാ സിനിമകളും ആ ഗ്രൂപ്പിൽ അഭ്യർത്ഥിക്കാം! ഇവിടെ അഭ്യർത്തിക്കരുത്..😤__**"""
+    ADD_YOUR_GROUP = """**__Join the group I work for and request all the movies you want in that group! Do not request here..😤__**"""
     SPELL_CHECK = """
 **Hello 👋{mention}**,
 
