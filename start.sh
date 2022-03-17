@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/coolboy007/updatedlucifer.git /updatedlucife
+  git clone https://github.com/coolboy007/updatedlucifer.git /updatedlucifer
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /updatedlucife
+  git clone $UPSTREAM_REPO /updatedlucifer
 fi
 cd /LuciferMoringstar-Robot
 pip3 install -U -r requirements.txt
