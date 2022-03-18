@@ -247,7 +247,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                     file_id=file_id,
                     caption=caption,
                     reply_markup=InlineKeyboardMarkup(buttons)
-                   protect_content=msg.get('protect', False),
+
                     )
 
 
