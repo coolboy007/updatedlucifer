@@ -4,7 +4,7 @@ from pyrogram.errors import UserIsBlocked, PeerIdInvalid
 from LuciferMoringstar_Robot.database.autofilter_db import is_subscribed, get_file_details
 from LuciferMoringstar_Robot.database._utils import get_size
 from translation import LuciferMoringstar
-from config import BUTTONS, FORCES_SUB, CUSTOM_FILE_CAPTION, START_MSG, PROTECT_CONTENT, DEV_NAME, bot_info, ADMINS
+from config import BUTTONS, FORCES_SUB, CUSTOM_FILE_CAPTION, START_MSG, DEV_NAME, bot_info, ADMINS
 
 
 @LuciferMoringstar_Robot.on_callback_query()
