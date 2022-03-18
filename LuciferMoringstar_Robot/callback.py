@@ -212,7 +212,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                         chat_id=query.from_user.id,
                         file_id=file_id,
                         caption=caption
-                        protect_content=msg.get('protect', False),
+                        
                         )
                     await query.answer('🤖 Check PM, I have Sent Files In Pm 🤖',show_alert = True)
             except UserIsBlocked:
@@ -233,6 +233,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
             for files in filedetails:
                 title = files.file_name
                 size=get_size(files.file_size)
+                protect_content=msg.get('protect', False)
                 
                 caption=CUSTOM_FILE_CAPTION.format(mention=query.from_user.mention, title=title, size=size, caption=files.caption)
 
