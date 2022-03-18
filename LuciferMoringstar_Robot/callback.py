@@ -212,7 +212,7 @@ async def cb_handler(client: LuciferMoringstar_Robot, query):
                         chat_id=query.from_user.id,
                         file_id=file_id,
                         caption=caption
-                           protect_content=msg.get('protect', False),
+                          
                         )
                     await query.answer('🤖 Check PM, I have Sent Files In Pm 🤖',show_alert = True)
             except UserIsBlocked:
